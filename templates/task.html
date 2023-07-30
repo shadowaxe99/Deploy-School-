@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Input</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Input</h1>
+        <form id="task-input-form">
+            <label for="task-input">Enter your task:</label>
+            <textarea id="task-input" name="task-input" rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit Task">
+        </form>
+        <div id="task-status">
+            <h2>Task Status:</h2>
+            <p id="task-status-message"></p>
+        </div>
+        <div id="task-output">
+            <h2>Task Output:</h2>
+            <p id="task-output-message"></p>
+        </div>
+        <button id="save-output-btn">Save Output</button>
+        <button id="new-task-btn">Start New Task</button>
+        <button id="exit-btn">Exit</button>
+    </div>
+    <script src="/static/js/task_input.js"></script>
+</body>
+</html>

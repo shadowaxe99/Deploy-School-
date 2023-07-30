@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/main.js"></script>
+</head>
+<body>
+    <div id="dashboard">
+        <h1>Welcome to the Dashboard</h1>
+        <div id="git-clone">
+            <h2>Clone a Git Repository</h2>
+            <input type="text" id="git-clone-input" placeholder="Enter Git Repository URL">
+            <button onclick="cloneGitRepo()">Clone</button>
+        </div>
+        <div id="file-upload">
+            <h2>Upload a File</h2>
+            <input type="file" id="file-upload-input">
+            <button onclick="uploadFile()">Upload</button>
+        </div>
+        <div id="task-input">
+            <h2>Input a Task</h2>
+            <textarea id="task-input" placeholder="Enter your task here"></textarea>
+            <button onclick="inputTask()">Submit Task</button>
+        </div>
+        <div id="task-output">
+            <h2>Task Output</h2>
+            <p id="output"></p>
+            <button id="save-output-btn" onclick="saveOutput()">Save Output</button>
+            <button id="new-task-btn" onclick="startNewTask()">Start New Task</button>
+            <button id="exit-btn" onclick="exitApplication()">Exit</button>
+        </div>
+    </div>
+    <script src="/static/js/git_repository_management.js"></script>
+    <script src="/static/js/file_upload.js"></script>
+    <script src="/static/js/task_input.js"></script>
+    <script src="/static/js/ai_agent_task_management.js"></script>
+    <script src="/static/js/task_execution.js"></script>
+    <script src="/static/js/output_presentation.js"></script>
+</body>
+</html>
