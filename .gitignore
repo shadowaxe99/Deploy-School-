@@ -1,0 +1,116 @@
+# .gitignore
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.ipynb
+venv/
+env/
+.Python
+
+# SQLite
+*.sqlite
+
+# Flask
+instance/
+
+# Docker
+Dockerfile
+.dockerignore
+.docker/
+
+# JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+/.vscode
+/.idea
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Others
+*.env
+*.env.example
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.rdb
+*.swp
+*.bak
+*.orig
+*.ini
+*.json
+*.yml
+*.yaml
+*.txt
+*.csv
+*.dat
+*.db
+*.sql
+*.sqlite
+*.sqlite3
+*.dockercfg
+*.example
+*.sample
+*.backup
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.tmp
+*.temp
+*.tst
+*.out
+*.rej
+*.orig
+*.swo
+*.swp
+*.vi
+*.sublime-project
+*.sublime-workspace
+*.sln
+*.suo
+*.user
+*.userosscache
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+*.psess
+*.vsp
+*.vspx
+*.sap
